@@ -1,0 +1,5 @@
+feign:
+  client:
+    config:
+      creditbank:
+        url: http://ken.utad.pt:8181
