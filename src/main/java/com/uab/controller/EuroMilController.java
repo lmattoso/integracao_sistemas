@@ -22,6 +22,6 @@ public class EuroMilController {
                  produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.CREATED)
     public RegisterResponseDTO register(@RequestBody RegisterRequestDTO request) {
-        return null;
+        return this.euroMilService.registerEuroMil(request);
     }
 }

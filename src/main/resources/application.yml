@@ -3,3 +3,11 @@ feign:
     config:
       creditbank:
         url: http://ken.utad.pt:8181
+
+grpc:
+  client:
+    euromil-grpc-server:
+      address: 'static://ken.utad.pt:8282'
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: plaintext
