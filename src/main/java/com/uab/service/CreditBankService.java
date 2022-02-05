@@ -1,6 +1,6 @@
 package com.uab.service;
 
-import com.uab.model.credibank.CheckResponseDTO;
+import com.uab.dto.credibank.CheckResponseDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;

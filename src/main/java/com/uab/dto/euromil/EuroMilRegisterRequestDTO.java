@@ -1,4 +1,4 @@
-package com.uab.model.euromil;
+package com.uab.dto.euromil;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class RegisterResponseDTO {
-    private String message;
+public class EuroMilRegisterRequestDTO {
+    private String key;
+    private String checkid;
 }
